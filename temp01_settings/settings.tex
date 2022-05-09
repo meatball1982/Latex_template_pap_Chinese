@@ -1,0 +1,65 @@
+\usepackage{CJKutf8}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{amssymb}
+\usepackage{verbatim}
+\usepackage{ifthen}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{makeidx} % for the index
+
+\usepackage{aliascnt,ccaption} % for the bi caption
+\usepackage[font=scriptsize,labelsep=quad]{caption} % make the figure caption small
+
+%\usepackage{hyperref} % use this for the writing and check process
+\usepackage[CJKbookmarks,colorlinks,bookmarksnumbered=true,linkcolor=black,citecolor=black]{hyperref} % use this for the print version mod : 2015年 01月 25日 星期日 19:33:19 CST
+
+\newaliascnt{figurealt}{figure}% New alias counter for figure float
+\aliascntresetthe{figurealt}
+\makeatletter
+\renewcommand{\contcaption}{%
+  \expandafter\addtocounter\expandafter{\@captype alt}{\m@ne}% Step alias cntr back
+  \expandafter\refstepcounter\expandafter{\@captype alt}% Make reference
+  \@contcaption\@captype}
+\makeatother
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code 
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{algorithm}
+%\usepackage{babel}
+%\usepackage[section]{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{include/py2tex}
+
+
+%\usepackage{everb} %% verbatim with color . mod : 2013年 12月 26日 星期四 15:08:37 CST
+%\everbsetup{bgcolor={[rgb]{0.92,0.92,1.00}}}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LO,LE]{QMANN \today}
+\setlength{\topmargin}{2pt} %
+\setlength{\oddsidemargin}{2pt}
+\setlength{\headheight}{4mm}
+\setlength{\headsep}{6pt}  % 
+\setlength{\voffset}{-0.6in} % 
+\setlength{\hoffset}{-0.6in} %
+\setlength{\footskip}{2.0em} %
+\setlength{\columnsep}{2mm} % 
+\setlength{\textwidth}{530pt} %
+\setlength{\textheight}{740pt} %
+\setlength{\paperheight}{820pt}
+
+\DeclareUnicodeCharacter{00A0}{ }
+
+

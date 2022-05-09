@@ -1,0 +1,24 @@
+\part{tex模板}
+ 
+\chapter{章标题chapter}
+\input{temp11_chapter/cha01_i_have_all/chap01_01_text}
+
+\chapter{这一章全四图}
+\input{temp11_chapter/cha01_i_have_all/chap01_02_fig.tex}
+
+\chapter{这一章全四表}
+\input{temp11_chapter/cha01_i_have_all/chap01_03_tab.tex}
+
+\chapter{这一章全四参考文献}
+\input{temp11_chapter/cha01_i_have_all/chap01_04_ref.tex}
+
+\chapter{这一章全四交叉引用}
+\input{temp11_chapter/cha01_i_have_all/chap01_05_cite.tex}
+
+\chapter{这一章全四公式}
+\input{temp11_chapter/cha01_i_have_all/chap01_05_cite.tex}
+
+
+%% logs
+% mod : 2014年 08月 01日 星期五 18:26:46 CST
+%
