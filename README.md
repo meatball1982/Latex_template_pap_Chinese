@@ -9,8 +9,9 @@ chmod +x sh_genpdf.sh
 to generate the main.pdf
 
 
-# #logs
-# mod : 2022年 5月 9日 星期一 10时56分50秒 CST
-# contact me : 
-# meatball1982@163.com
-# 
+# logs
+#--------------------------------------------
+#mod : 2022年 5月 9日 星期一 10时56分50秒 CST
+#contact me : 
+#meatball1982@163.com
+#-
