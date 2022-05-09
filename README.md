@@ -8,7 +8,7 @@ chmod +x sh_genpdf.sh
 
 to generate the main.pdf
 
-It has been test on MacOs ans Ubuntu 18.04
+It has been test on MacOs and Ubuntu 18.04
 with texlive 2015
 
 # logs
